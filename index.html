@@ -18,7 +18,11 @@
 			</h2>
 
 			<div id="forms">
+
+				<h3>Who are you?</h3>
+
 				<form id="nameAndAddress">
+				
 					First name: <br>
 					<input type="text" name="firstName"> <br>
 					Middle initial: <br>
@@ -32,6 +36,8 @@
 				<h3>Where do you work?</h3>
 
 				<form id="Occupation">
+					
+
 					Occupation: <br>
 					<input type="text" name="occupation"> <br>
 					Employer: <br> 
@@ -40,7 +46,9 @@
 					<input type="text" name="employerAddress"> <br>
 				</form>
 
-				<form id="loanType">
+				<h3>How may we help you?</h3>
+
+				<form id="loanSpecifics">
 					Loan Type Requested: <br>
 					<input type="radio" name="loanType" value="commercial">Commercial <br>
 					<input type="radio" name="loanType" value="realEstate">Real Estate <br>
@@ -52,6 +60,45 @@
 					Loan Amount <br>
 					$<input type="text" name="loanAmount">
 				</form>
+
+				<h3>How long is this loan for?</h3> 
+
+				<form id="loanLength">
+					<input type="radio" name="loanLength" value="5">5 years <br>
+					<input type="radio" name="loanLength" value="15">15 years <br>
+					<input type="radio" name="loanLength" value="30">30 years <br>
+				</form>
+
+				<h3>Any special conditions?</h3>
+
+				<form id="specialConditions">
+					<input type="checkbox" name="specialConditions" value="downPayment">I have a down payment <br>
+					<input type="checkbox" name="specialConditions" value="out-of-state">Out of state residency <br>
+					<input type="checkbox" name="specialConditions" value="married">I am married <br>
+					<input type="checkbox" name="specialConditions" value="coSign">Loan will be cosigned <br>
+				</form>
+
+				<h3>Additional comments?</h3>
+
+				<form id="comments">
+					<input type="text" name="applicantComments">
+				</form>
+
+				<h3>Contact Info</h3>
+
+				<form id="contactInfo">
+					Email address: <br>
+					<input type="text" name="applicantEmail"> <br>
+					Telephone number: <br>
+					<input type="text" name="phoneNumber"> <br>
+					LinkedIn URL: <br>
+					<input type="text" name="linkedIn"> <br>
+				</form>
+
+				<form>
+					<input type="submit" name="submit">
+				</form>
+
 
 
 			</div>
