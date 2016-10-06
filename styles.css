@@ -10,3 +10,11 @@ form {
 h2 {
 	font-weight: lighter;
 }
+
+input:valid {
+	background-color: lawngreen;
+}
+
+input:invalid {
+	background-color: tomato;
+}
